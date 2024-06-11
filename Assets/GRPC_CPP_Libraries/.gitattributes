@@ -1,0 +1,16 @@
+libgrpc++.a filter=lfs diff=lfs merge=lfs -text
+libgrpc.a filter=lfs diff=lfs merge=lfs -text
+libprotoc.a filter=lfs diff=lfs merge=lfs -text
+libgrpc_unsecure.a filter=lfs diff=lfs merge=lfs -text
+libgrpc_authorization_provider.a filter=lfs diff=lfs merge=lfs -text
+libprotobuf.a filter=lfs diff=lfs merge=lfs -text
+libabsl_log_internal_check_op.a.meta filter=lfs diff=lfs merge=lfs -text
+libabsl_log_internal_proto.a filter=lfs diff=lfs merge=lfs -text
+libabsl_statusor.a filter=lfs diff=lfs merge=lfs -text
+libabsl_malloc_internal.a.meta filter=lfs diff=lfs merge=lfs -text
+libabsl_statusor.a.meta filter=lfs diff=lfs merge=lfs -text
+libabsl_status.a.meta filter=lfs diff=lfs merge=lfs -text
+libabsl_log_severity.a.meta filter=lfs diff=lfs merge=lfs -text
+libabsl_str_format_internal.a.meta filter=lfs diff=lfs merge=lfs -text
+libabsl_log_internal_message.a.meta filter=lfs diff=lfs merge=lfs -text
+libabsl_string_view.a filter=lfs diff=lfs merge=lfs -text
