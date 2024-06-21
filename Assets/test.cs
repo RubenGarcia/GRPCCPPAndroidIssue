@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
 
-public class GRPC : MonoBehaviour
+public class test : MonoBehaviour
 {
     [DllImport("__Internal")]
-    private static extern void grpc_init();
+    private static extern void test_c();
 
     // Start is called before the first frame update
     void Start()
     {
-        grpc_init();
+        test_c();
     }
 
     // Update is called once per frame
